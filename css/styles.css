@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(51, 51, 51);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+h1 {
+    color: rgb(246, 203, 128); 
+    font-size: 85px; 
+    text-align: left;
+    font-family: 'Righteous', cursive;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+} 
+p {
+    color: #f7fefd;
+    text-align: justify;
+    max-width: 70%;
+    margin: 10px auto;
+}
+.insta, .linkedin{
+    width: 50px;
+   padding-right: 20px;
+   padding-top: 20px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+}
+h2 {
+    color: rgb(145, 145, 147); 
+    font-size: 25px; 
+    text-align: center;
+    margin-top: 0px;
+}
+nav a {
+    color:  rgb(51, 50, 52);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 20px;
+    font-weight: 600;
+}
+nav {
+    padding: 20px;
+    text-align: center;
+}
+nav a:hover{
+    color: rgb(246, 203, 128);
+}
+.navigation {
+    background-image: url(../images/Bass1.jpg);
+    width: 50%;
+    background-size: cover;
+}
+.bio {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+main {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 100vh;
+}
